@@ -1,25 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import TicTacToe from './TicTacToe/TicTacToe';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <button>Click Me</button>
-        <button>Click Me</button>
-        <button>Click Me</button>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <TicTacToe/>
     </div>
   );
 }
+
 
 export default App;
